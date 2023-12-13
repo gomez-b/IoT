@@ -1,6 +1,7 @@
-/* Purpose: This project uses 8266 wifi features,
-this program consists of turning on or off an LED 
-using API
+/* Purpose: This project uses ESP8266 with DHT11 temp/humiidty sensor. code uses 
+time api to send the sensor data to phpmyadmin(HOSTINGER) dB 
+and is then sent to Grafana.
+  Date: 12/12/23
   Author: Brian Gomez Jimenez
    */
 #include <Arduino.h>
